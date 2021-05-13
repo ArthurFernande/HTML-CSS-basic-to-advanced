@@ -1,0 +1,18 @@
+#titulo{
+    background-color: #00FA15;
+    color: rgb(255,255,255);
+}
+
+p{
+    background-color: #0000FF;
+    border-radius: 5px;
+    border-top: 5px dotted #FF0000;
+    
+}
+div{
+    background-color:#00FF00;
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid darkgreen;
+}
