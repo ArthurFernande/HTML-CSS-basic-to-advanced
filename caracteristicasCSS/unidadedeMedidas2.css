@@ -1,0 +1,23 @@
+
+.box {
+    width: 50%;
+    height: 400px;
+    background-color: #999;
+}
+
+.interno {
+    width: 50%;
+    height: 50%;
+    background-color: #333;
+    
+}
+.box2 {
+    width: 300px;
+    background-color: #999;
+
+}
+.interno2 {
+    background-color: #333;
+    color: #FFF;
+    width:16ch;
+}

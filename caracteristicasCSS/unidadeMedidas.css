@@ -1,0 +1,18 @@
+html{
+    font-size: 20px;
+}
+body{
+    font-size: 20px;
+}
+h1{
+    font-size: 3rem;
+}
+.box{
+    font-size: 2rem;
+}
+
+.interno{
+    width: 20rem;
+    height: 20rem;
+    background-color: #CCC;
+}
