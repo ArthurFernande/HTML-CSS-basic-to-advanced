@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>hello</title>
+    <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Oi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="parte2.css">
+</head>
+<!-- <section></section>separar a pagina em varios assuntos
+<article></article> dizer para o motor de busca ou scanner que vai ler seu site que vai ter o conteudo principal do site , blog ou noticia esoecifica ou um comentario especifico , ai quando clicar na noticia vou paa tudosobre ela.
+<aside></aside> o contrario , o que estiver nela vai ser considerado como coisa secundaria na mihha pagina
+o dia do meu aniversario é <time datetime= "1993-12-14">nesse dia</time> para meu mecanismo de busca saber exatamente  o dia.
+-->
+
+<body>
+    O meu dia prefereido é o <time datetime="1600-01-01">dia do meu aniversário</time>
+    <br><br>
+    <!--no html 5 posso criar as minhas tags e personalizalas no css-->
+    <bora>vamos</bora>
+    <br><br>
+    <!--esses inputs tem validação
+<input type ="search"name="search"/>
+<input type ="email"name="email"/>
+<input type ="email"name="email" required/> o required quer dizer que so vai com o campo preenchido
+<input type ="url"name="url" required/>
+<input type ="number"/>
+<input type ="range" min="1" max="100" required/>
+<input type ="date" required/> obs: se trocar date por month ou por week troco por messes e por semana
+<input type ="time" required/>
+<input type ="datetime-local" required/> tempo e data , os dois simultaneamente
+<input type ="color" required/>-->
+
+<input type="search" name= "search"/>
+<br><br>
+<form method="POST">
+    <input type="email" name= "email" required/>
+    <br><br>
+    <input type="url" name= "url" required/>
+    <br><br>
+    <input type="tel" name= "tel" required/>
+    <br><br>
+    <input type="number" name= "number" required/>
+    <br><br>
+    <input type="range" min="1" max="100" required/>
+    <br><br>
+    <input type="date" name= "date" required/>
+    <br><br>
+    <input type="time" name= "time" required/>
+    <br><br>
+    <input type="datetime-local" name= "datetime-local" required/>
+    <br><br>
+    <input type="color" name= "color" required/>
+    <br><br>
+    <input type="submit" value="Enviar"/>
+</form>
+<br><br>
+
+<!--<video></video> é a tag que representa area que vai aparecer um video
+
+essa taga so funciona para 3 tipos de formato de videoabixao estão a tag do video
+<source src="video.mp4"  type="video/mp4"> nao tem controle sobre o video , imagem do video congelada
+<source src="video.mp4"  type="video/mp4" controls> total controle de pausar e iniciar video
+<source src="video.mp4"  type="video/mp4" autoplay> da o play automatico
+<source src="video.mp4"  type="video/mp4" autoplay controls > tem as duas funções acima
+
+OBS autoplay vai funcionar perfeitamente com JS-->
+<video width="500" height="275"  controls>
+    <source src="video.mp4"  type="video/mp4"> 
+
+</video>
+<br><br>
+<!--mesmo esquema da tag video
+ <audio controls>
+<audio controls autoplay loop> fica tocando musica sem parar
+<audio controls autoplay muted> comecara com audio mutado
+<audio controls controls preload> a musica ja começa a carregar antes de dar o play
+            <source src="musica.mp3"  type="audio/mpeg">
+ </audio>
+suporta 3 tipos
+audio.m3 =audio/mpeg
+audio.ogg=audio/ogg
+audio.wav=audio/wav-->
+<audio controls preload >
+    <source src="som.mp3" type="audio/mpeg">
+</audio>
+
+
+</body>
+
+</html>
