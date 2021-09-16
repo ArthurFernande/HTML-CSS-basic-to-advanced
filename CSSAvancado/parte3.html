@@ -5,17 +5,23 @@
     <title>placeholder</title>
     <meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
     <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Oi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="parte3.css">
 </head>
 <!-- placeholder coloca o texto dentro do input e autofocus ja coloca o cursor no campo do texto
+    maxlength determina o numero maximo de caracteres do meu input
+    required serve para determinar que o campo so pode ser enviado se o campo for preenchido corretamente
+    size determino o tamanho do input
+    autocomplete ="on" caso eu queira que le complete meu campo e off para desabilitar
 -->
 
 <body>
     <form method="POST">
-        <input type="text" name= "text" required placeholder="Usuário" autofocus/><br><br>
-        <input type="password" name= "password" required  placeholder="Senha"/><br><br>
-        <input type="submit"  value="Enviar"/>
+        <input type="text" name="text" required placeholder="Usuário" autofocus maxlength="10"
+            autocomplete="off" /><br><br>
+        <input type="password" name="password" required placeholder="Senha" /><br><br>
+        <input type="submit" value="Enviar" />
     </form>
 </body>
 
-</html>
+</html>A

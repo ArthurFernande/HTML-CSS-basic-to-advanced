@@ -1,0 +1,67 @@
+/*
+Animacoes
+keyframes nome serve para da animações a um determinado elemento do html
+animation-name:teste;    o nome nao deve ser igual o class do elemento que vc ira aplicar a animação
+animation-duration: 4s;   ela dura 4s
+animation-delay: 2s;       demora 2 segundos para começar
+animation-iteration-count: 3;  quantidade de vezes que a animação ocorrerá, caso queira infinito  só colocar infinite
+*/
+@keyframes teste{
+    0%{background-color: red; top:0; left:0;}
+    25%{background:yellow;top:0; left:200;}
+    50%{background:blue;top:200; left:200;}
+    75%{background:green;top:200; left:0;}
+    100%{background:red;top:0; left:0;}
+}
+
+body{
+    margin: 0;
+}
+/*
+Gradiente-efeito com arredondamento da borda
+border-top-right-radius: 100px; arredonda somente a parte que vc quer arredondar
+background: linear-gradient(white , blue); tranforma a cor em gradiente
+----------------------------proteções------------------------------------------------------------
+background:-moz-linear-gradient(white , blue); trata para funcionar em todos os navegadores mozila
+background:-o-linear-gradient(white , blue); trata para funcionar em todos os navegadores opera
+background:-webkit-linear-gradient(white , blue); trata para funcionar em todos os navegadores edger
+*/
+/*
+Sombras
+text-shadow : 5px 5px 3px #000;  fazer sombra em um texto onde 0px=esquerda/direita 0px =cima/baixo 30px é o esfumaçamento
+box-shadow: 0px 0x 30px #888888; fazer sombra em um elemento onde 0px=esquerda/direita 0px =cima/baixo 30px é o esfumaçamento
+*/
+#teste{
+    margin-left:100px;
+    margin-top:100px;
+    width: 200px;
+    height:200px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+    background-color: blue;
+    background: linear-gradient(60deg,white , blue);
+    position:absolute;
+    animation-name:teste;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    box-shadow: 0px 0x 30px #888888;
+    text-shadow : 5px 5px 3px #000;
+    transition:all 1s linear;
+
+}
+/*
+sei que o hover serve para fazer algo quando passor o cursor do mouse em cima
+transition:all 1s linear serve para mudar o tempo de reação quando passa o mouse em cima
+*/
+#teste:hover{
+   background-color: dodgerblue;
+
+}
+a{
+    color:#000;
+    transition:all 1s linear;
+}
+a:hover{
+    color:firebrick;
+}
