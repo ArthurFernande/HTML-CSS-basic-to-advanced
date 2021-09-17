@@ -1,0 +1,48 @@
+/*
+display: none  quero que a dvi mostre
+display: inline para fica um do lado do outro
+display:flex to dizendo que a tecnologia que sera usada dentro dele será atraves da tecnologia do flexbox
+OBS: o flex trabalha sempre na horizontal se eu dou :
+flex-direction: rown é o padrão
+flex-direction: column trabalha dentro do container como coluna
+flex-direction: row reverse segue o mesmo padrão so que vem da direita para esquerda, mesma coisa para column reverse
+*/
+.container{
+
+    display: flex;
+    flex-direction: row;
+    background-color:#DDDDDD ;
+    margin:10px;
+}
+/* o flex:1 signicia que a quantidade de elementos vai ser divido em um unico elemento nesse caso a div 1 e 2 vao ser dividos de maneira que tenham proporções iguais(mesma largura e altura)
+*/
+.div1{
+    flex:1;
+    background-color: #FF0000;
+    padding: 10px;
+    margin:10px;
+    font-size:18px;
+}
+.div2{
+    flex:1;
+    background-color: #FF0000;
+    padding: 10px;
+    margin:10px;
+    font-size:18px;
+}
+/* o flex:2 signicia  que esse elemento tera o dobro do tamanho do que esta no flex:1 
+*/
+.div3{
+    flex:1;
+    background-color: #FF0000;
+    padding: 10px;
+    margin:10px;
+    font-size:18px;
+}
+.div4{
+    flex:3;
+    background-color: #FF0000;
+    padding: 10px;
+    margin:10px;
+    font-size:18px;
+}

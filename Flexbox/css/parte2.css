@@ -1,0 +1,34 @@
+.container {
+    display:flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color:#DDDDDD;
+   
+}
+/*
+veja que se eu colocar um width = 200px nao vai caber mais o flex ele prioriza que caiba todos os elementos  assim adptando de maneira que todos tenham o mesmo tmanho , embora que fiquem com menos de 200px
+flex-wrap: wrap; se não couber do lado com o tamanho exato que eu quero ele vai para linha de  baixo.
+flex-flow: row wrap; onde alinhamento vai ser row  e wrap vai ser o tipo de wrap
+Se for row
+justify-content: center; eu alinho na linha eixo x (alinha na posicao que esta sendo exibida)
+align-items: alinho na coluna eixo y (alinha na direção contraria)
+Se for column 
+ao contrario justify-content: no eixo y  e align-items: eixo x
+propriedades do justify-content
+flex-start: onde começar o flex é onde bvai estar aninhada
+flex-end: onde o flex acaba
+center: para centralizar
+space-around: alinha itens que o espacamento entre eles seja igual
+space-between: o primeiro e ultimo item ficam no canto do flex e orestante se divide ao meio
+*/
+.container div {
+width :100px;
+height: 100px;
+background-color: #FF0000;
+margin:10px;
+padding:10px;
+font-size:18px;
+
+}

@@ -1,0 +1,38 @@
+.container {
+    display:flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:#DDDDDD;
+    align-content: center;
+   
+}
+/*
+  align-self: ;  para alinhar ele mesmo um item especifico
+  o order serve para trocar a odem de cada elemento que eu estou trabalhando
+  align-content alinhamento para todo conteudo
+  propriedades do align-content :
+  flex-end: toda galera vai para final do elmento
+  flex-start: toda galera vai para cima do elmento
+  center: todo mundo vai para o meio
+  space-between : tera um elemento inicial e outro no final da minha div nesse casoo e orstante fica no meio dividindo memso espaco
+  space-around: 
+*/
+.container div {
+width :100px;
+height: 100px;
+background-color: #FF0000;
+margin:10px;
+padding:10px;
+font-size:18px;
+
+}
+.div10 {
+   align-self: center ; 
+   order: -1;
+}
+.div14{
+    order:2;
+}
