@@ -1,0 +1,17 @@
+body{
+    margin:0;
+}
+/*
+word-wrap: break-word; quebra a palavra para nao ultrapassar o limite da minha div
+*/
+.teste{
+    width:150px;
+    height: 200px;
+    border: 1px solid #000;
+    word-wrap: break-word;
+    
+}
+q{
+ font-style: italic;
+ color:#555;
+}
