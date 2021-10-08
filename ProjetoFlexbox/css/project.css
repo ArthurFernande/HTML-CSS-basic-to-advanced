@@ -315,7 +315,66 @@ footer .widge_title_text {
     font-size: 12px;
     margin-top: 30px;
 }
+.clinic_descrition {
+    margin-right: 5px;
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+.contact_container{
+    display: flex;
+    
+}
+.adress_clinic{
+    margin-top: 36px;
+    color: #5c5c5c;
+    font-size: 14px;
 
+}
+.clinic_phone{
+    margin-top: 55px;
+    color: #5c5c5c;
+    font-size: 14px;
+    margin-left: 55px;
+}
 
+.clinic_phone span{
+    color:#FFFFFF
+}
+.icones{
+    display:flex;
+    align-items: center;
+    margin-top: 55px;
+}
+ .img1, .img2, .img3, .img4 {
+    display: flex;
+    margin-right: 8px;
+    padding:5px;
+    height: 20px;
+    width: 20px;
+    background-color: #35343493;
+}
+.latest_post{
+    display:flex;
+    margin-top: 20px;
+}
+.arrows_content {
+    font-size:14px;
+    margin-right: 10px;
+    margin-top: 0;
+    color: #FFFFFF;
+}
+.intern_text, .date_text{
+    font-size: 15px;
+    line-height: 20px;
+}
+.intern_text{
+    color:#FFFFFF;
+}
+.date_text {
+    color:#42b3e5;
+}
 
-
+footer a {
+    text-decoration: none;
+}
