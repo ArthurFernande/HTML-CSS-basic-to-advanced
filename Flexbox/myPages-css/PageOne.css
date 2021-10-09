@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    font-family: monospace;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+article{
+    flex:2;
+    background-color: blueviolet;
+}
+nav{
+    flex: 1;
+    background-color:darksalmon;
+}
+aside{
+    flex:1;
+    background-color:orange;
+}
+
+header , footer {
+    background-color: #00B5EF;
+    height:20vh;
+}
+
+@media (max-width:400px) {
+    .main{
+        height: auto;
+        flex-direction: column-reverse;
+    }
+}

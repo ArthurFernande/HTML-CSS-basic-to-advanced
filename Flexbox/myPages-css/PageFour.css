@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+margin: 0;
+color:#FFFFFF;
+}
+header, footer {
+    background-color: #49BDEF;
+    height: 20vh;
+    text-align: center;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    flex:1;
+}
+nav {
+    flex:1;
+    background-color: orange;
+}
+article {
+    flex:2;
+    background-color:#5C3E90 ;
+}
+aside{
+    flex:1;
+    background-color: #F5BA5C;
+}
+
+footer, article, aside, nav {
+    padding: 1em;
+}
