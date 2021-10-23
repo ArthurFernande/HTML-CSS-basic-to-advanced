@@ -1,0 +1,128 @@
+* {
+    padding:0;
+    margin:0;
+  }
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0; 
+    min-height: 100vh;
+}
+/* parte do cabeçario*/
+.inicio {
+    display:flex;
+    justify-content: space-between;
+    background-color: #DF0024;
+
+}
+.logo {
+    flex: 1;
+    display:flex;
+    
+    
+}
+.imagemSlogan{
+    width:200px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.menu{
+    flex: 1;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.lista {
+    display:flex;
+    justify-content: space-around;
+    gap:15px
+   
+}
+.navegacao .lista, .navegacao li{
+    list-style: none;
+    margin:0;
+    padding: 10px;
+    
+}
+.navegacao a {
+    text-decoration: none;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.navegacao a:hover{
+    background: #FFFFFF;
+    color:#DF0024;
+    border-radius: 5px;
+}
+/* parte do conteudo*/
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh; 
+}
+.propaganda {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+}
+.container .titulo {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #DF0024;
+}
+.container .texto {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #DF0024;
+}
+.container .botoes {
+    display: flex;
+    margin-top: 10px;
+    gap:10px;
+}
+.container .botoes .sair , .container .botoes .comprar {
+    background: #DF0024; 
+    border-radius: 4px;
+    color: white;
+}
+.container .titulo , .container .texto , .container .botoes {
+    margin-left: 15%;
+}
+
+.nitendoSwitch{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nitendoSwitch .videogameSwitch{
+    display:flex;
+}
+
+.nitendoSwitch .videoGame{
+    width: 700px;
+    height: 700px;
+}
+
+
+
+
+
+
+
+
