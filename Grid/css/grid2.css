@@ -1,0 +1,49 @@
+.container{
+    display:grid;
+    grid-gap:10px;
+    color:#CCC;
+    grid-template-areas: 
+    
+    "header header header header"
+    "menu content content content"
+    "adv content content content"
+    "footer footer footer footer "
+    
+    ;
+    
+}
+.item{
+    background-color: blue;
+    color:#FFF;
+    border-radius: 10px;
+    padding:20px;
+    font-size:20px;
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: menu;
+}
+section{
+    grid-area:content;
+}
+footer {
+    grid-area:footer;
+}
+.adv {
+    grid-area:adv;
+}
+
+/*reponsividade no grid tablet*/
+
+@media (max-width:750px) {
+    .container{
+        grid-template-areas:
+            "header header header menu"
+            "content content content content"
+            "adv adv adv adv"
+            "footer footer footer footer"
+        ;
+    }
+}
