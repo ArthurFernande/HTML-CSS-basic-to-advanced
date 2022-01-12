@@ -1,0 +1,65 @@
+
+/*
+segundo elemento de baixo para cima*
+div:nth-last-child(2){
+    background-color: red;
+}
+segundo elemento de cima para baixo
+div:nth-child(2){
+    background-color: blue;
+}
+
+div::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+div::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid #000;
+}
+*/
+/*
+.balao {
+    background-color: #0000FF ;
+    display: inline-block; vai pegar todo espaço do texto
+    color:#FFF ;
+    padding: 20px;
+    border-radius: 20px;
+}
+.balao::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    border: 20px solid;
+    border-color: #0000FF  transparent transparent transparent;
+}
+*/
+.input {
+    width: 400px;
+    height: 50px;
+    font-size: 27px;
+}
+
+.input::placeholder {
+    color: blue;
+    
+}
+
+/*transform :scale() duplica ou reduz o tamanho do item
+transform :rotate(90deg) rotaciona o item "90 graus"
+transform :skewx(20deg) item
+*/
+
+/*
+box-sizing:border-box para o tamanho do elemento seja o mesmo com ou sem borda
+*/

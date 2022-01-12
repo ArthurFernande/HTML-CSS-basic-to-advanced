@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tabela{
+    border: 1px solid #000;
+    height: 300px;
+    width: 300px; 
+}
+.item-topo {
+    border: 1px solid #000;
+    background-color: #999;
+    padding: 0 30px ;
+}
+.item {
+    border: 1px solid #000;
+}
+.categoria {
+    text-align: center;
+}
+.conteudo {
+    text-align: center;
+}
+
+/*o pulo do gato */
+.item:nth-child(2n+2) {
+    background: rgb(49, 206, 43);
+}

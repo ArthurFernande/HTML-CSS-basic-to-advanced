@@ -1,0 +1,23 @@
+
+.botao {
+   
+    text-decoration: none;
+    background-color: rgb(79, 79, 226);
+    padding: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    line-height: 50px;
+    border-radius: 12px;
+    text-shadow: 0px 1px gray;
+    box-shadow: 0px 1px 0px gray;
+}
+
+.botao:hover {
+    background-color: rgb(111, 111, 247);
+}
